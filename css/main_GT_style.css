@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+.bt1{width: 250px;height: 60px; border: 2px solid #a2c012; background-color: transparent; display: block; border-radius: 30px;}
+.bt1:hover{ background-color: rgba(162, 192, 18, 0.5);}
+.bt1 span{width: 250px; height: 60px; padding:15px; font-size: 18.75pt; font-family: 'GyeonggiBatang'; color: #444; text-align: center; display: inline-block;}
+
+.bt2{width: 50px; height: 50px; border: 2px solid#a2c012;background-color: transparent; display: block; border-radius: 10px;}
+.bt2:hover{ background-color: rgba(162, 192, 18, 0.5);}
+.bt2 span{width: 30px; height: 30px;; font-size: 22.5pt; font-family: 'GyeonggiBatang'; color: #a2c012;text-align: center; display: inline-block; vertical-align: middle;}
+.t1 {height: 25px; position: relative; margin: 0 0 50px 0; color: #a2c012; font-size: 18.75pt;}
+.t1::after{content: ""; width: 40px; height: 3px; position: absolute; top: -17px; left: 0; background-color: #a2c012;}
+
+.t2 {height: 25px; position: relative; margin: 0 0 50px 0; color: #a2c012; font-size: 18.75pt;}
+.t2::after{content: ""; width: 40px; height: 3px; position: absolute; top: -17px; background-color: #a2c012;}
+
+
+/*benner*/
+#slider{width: 100%; height: 700px; background: url(../img/banner5-2.jpg) no-repeat center; padding-top: 100px; background-size: 120%; background-position: right;}
+#slider .texbox{width: 1200px; margin: 0 auto;}
+#slider>.texbox h1{width: 600px;height: 200px; margin: 0 0 50px 0; padding: 0; line-height: 90pt;}
+#slider .texbox>p{width: 600px;; height: 75px; font-size: 15pt; line-height: 22.5pt;}
+#slider .bt1{margin: 50px 0 0 0;}
+
+/*section*/
+section{width: 100%; margin: 100px 0 0 0;}
+
+section .sc1{width: 1200px; height: 700px; margin: 0 auto;}
+section .sc1>.bn{float: left; width: 50%; height: 100%;}
+section .sc1>.bn img{float: right;}
+section .sc1>.text{padding: 125px 0 0 200px; width: 50%; height: 100%; float: left;}
+section .sc1>.text>.t1{width: 120PX;}
+section .sc1>.text h2{width: 400px; height: 100px; margin: 0 0 50px 0;}
+section .sc1>.text>.e1{width: 400px; height: 150px; font-size: 15pt; font-family: 'GyeonggiBatang'; line-height: 22.5pt;}
+section .sc1>.text>.bt1{margin: 50px 0 0 0;}
+
+section .sc2{width: auto; height: 1250px; margin: 100px 0 0 0;}
+section .sc2>.text2{width: 1200px; height: 200px; margin: 0 auto; padding: 25px 0 0 0;}
+section .sc2>.text2 h2{width: 350px; height: 100px;float: left;}
+section .sc2>.text2 nav{width: 580px; height: 30px; float: right; margin-top: 40px; position: relative; cursor: pointer;}
+section .sc2>.text2 nav::after{content: ""; width: 100%;; height: 5px; position: absolute; right: 0; background-color: #ccc; bottom: -25px; z-index: -1;}
+section .sc2>.text2 nav ul{width: 580px; display: flex; justify-content: space-between;}
+section .sc2>.text2 nav ul li{float:left;  font-size: 18.75pt; position: relative;}
+section .sc2>.text2 nav ul li:hover, .active{font-weight: bold;}
+section .sc2>.text2 nav ul li:hover::after, .active::after{content: ""; width: 100%; height: 10px; position: absolute; background-color: #a2c012; left: 0; bottom: -27px;}
+
+
+section .sc2>.box1{width: 1200px; height: 425px; margin: 50px auto 0 auto; font-family: 'GyeonggiBatang'}
+section .sc2>.box1 div{width: 270px; height: 425px; float: left; background-color: #fff;}
+section .sc2>.box1 div:hover{box-shadow: 2px 2px 5px 2px #eee;}
+section .sc2>.box1 div:not(:last-child){margin: 0 40px 0 0;}
+section .sc2>.box1 div>a{text-align: center; display: inline-block; height: 100%;}
+section .sc2>.box1 div>a img{width: 100%;}
+section .sc2>.box1 div>a p{margin: 20px 0 0 0; font-size: 15pt;}
+section .sc2>.box1 div>a .pr{font-size: 18.75pt; color: #a2c012; font-weight: bold;}
+
+
+section .sc2>.box2{width: 1200px; height: 425px; margin: 50px auto 0 auto; font-family: 'GyeonggiBatang';}
+section .sc2>.box2 div{width: 270px; height: 425px; float: left; background-color: #fff;}
+section .sc2>.box2 div:hover{box-shadow: 2px 2px 5px 2px #eee;}
+section .sc2>.box2 div:not(:last-child){margin: 0 40px 0 0;}
+section .sc2>.box2 div>a{text-align: center; display: inline-block;height: 100%;}
+section .sc2>.box2 div>a img{width: 100%;}
+section .sc2>.box2 div>a p{margin: 20px 0 0 0; font-size: 15pt;}
+section .sc2>.box2 div>a .pr{font-size: 18.75pt; color: #a2c012; font-weight: bold;}
+
+section .sc2>.ps{width: 1200px; margin: 0 auto;}
+section .sc2>.ps>.pg{width: 170px; height: 20px; display: flex; justify-content: space-between; margin: 80px 0 0 900px; position: relative; float: left;}
+section .sc2>.ps>.pg a{font-size: 15pt; color: #222;}
+section .sc2>.ps>.bt2{float: right; margin: 50px 0 0 5px;}
+
+
+section .sc3{width: auto; height: 1350px; margin: 100px 0 0 0;}
+
+section .sc3>.text3{width: 1200px; height: 150px; margin: 0 auto; padding: 25px 0 0 0; text-align: center;}
+section .sc3>.text3>.t2::after{left: 580px;}
+section .sc3>.cm{width: 1200px; height: 300px; margin: 50px auto 200px auto;}
+
+section .sc3>.cm>.ic{width: 250px; height: 100%; border-radius: 20px; background-color: #fff; float: left; border-radius: 20px;}
+section .sc3>.cm>.ic:first-child{margin: 0 75px 0 150px;}
+section .sc3>.cm>.ic:last-child{margin: 0 150px 0 75px;}
+section .sc3>.cm>.ic:hover{box-shadow: 2px 2px 5px 2px #eee;}
+section .sc3>.cm>.ic a{text-align: center; font-size: 22.5pt; display: inline-block;padding: 50px 50px 0 50px; width: 100%;height: 100%;}
+section .sc3>.cm>.ic a p{margin: 30px 0 0 0;}
+
+section .sc3>.ev{width: 1200px; height: 650px; margin: 0 auto;}
+section .sc3>.ev>.evbn{width: 900px; height: 400px; margin: 0 auto;}
+section .sc3>.ev>.evbn a img{width: 100%;}
+section .sc3>.ev>.bt1{margin: 100px auto 0 auto;}
+
+section .sc4{width: auto; height: 650px; margin: 100px 0 0 0;}
+section .sc4>.text4{width: 1200px; height: 150px; padding: 25px 0 0 0; margin: 0 auto 50px auto;}
+section .sc4>.text4>.t2::after{left: 2.5px;}
+
+section .sc4>.box3{width: 1200px; height: 425px; margin: 50px auto 0 auto;}
+section .sc4>.box3 div{width: 270px; height: 425px; float: left; background-color: #fff; box-shadow: 2px 2px 5px 2px #eee;;}
+section .sc4>.box3 div:not(:last-child){margin: 0 40px 0 0;}
+section .sc4>.box3 div p{text-align: center; margin: 30px 0 0 0;}
+section .sc4>.box3 div button{width: 30px; height: 25px; margin: 15px 0 0 10px; border: none;}
+section .sc4>.box3 div>button>img{width: 100%;}

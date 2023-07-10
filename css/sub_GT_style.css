@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+button{border-style: none;}
+.bt1{width: 40px; height: 40px; border-radius: 100%; margin: 0 15px; background-color: #a2c012; color: #fff;}
+
+.bt2{ height: 60px; width: 100px; font-weight: bold; font-size: 15pt; background-color: #a2c012; color: #fff;}
+
+.bt3{color: #fff; background-color: #444; opacity: 0.75;}
+.bt3:hover{opacity: 1;}
+
+section{width: 100%; margin: 100px auto 0 auto;}
+section .sc1{width: 1200px;height: 700px; margin: 0 auto; display: flex; font-family: 'GyeonggiBatang'; border: 1px solid #eee;}
+section .sc1>.texbox{width: 500px; height: 100%; }
+section .sc1>.texbox h2{text-align: center; margin: 50px 0 0 0;}
+section .sc1>.texbox h3{text-align: center; margin: 20px 0 80px 0;}
+section .sc1>.texbox table{width: 300px; height: 50px; text-align: center; margin: 0 auto; border-collapse: collapse;}
+section .sc1>.texbox table tr:first-child{font-size: 15pt;}
+section .sc1>.texbox table tr:last-child{font-size: 22.5pt;}
+
+section .sc1>.texbox table tr>th:first-child{border-right: 2px solid #aaa;}
+section .sc1>.texbox table tr>td:first-child{border-right: 2px solid #aaa;}
+
+section .sc1>.texbox p{text-align: center; font-size: 22.5pt; font-weight: bold; color: #a2c012; margin: 75px 0 0 0;}
+
+section .sc1>.texbox form{width: 300px; text-align: center; margin: 75px auto 0 auto; font-size: 15pt;}
+section .sc1>.texbox form>input{width: 100px; height: 40px; text-align: center; border-style: none; box-shadow: 1px 1px 1px 1px #aaa;}
+section .sc1>.texbox form>div{height: 60px; width: 300px; margin: 50px auto 0 auto; display: flex; justify-content: center;}
+section .sc1>.texbox form>div .bt2:first-child{margin-right: 10px;}
+section .sc1>.texbox form>div .bt2:last-child{margin-left: 10px;}
+
+
+section .sc1>.pi{ width: 700px; height: 100%; display: flex; align-items: center; justify-content: space-around;}
+section .sc1>.pi img{width: 100%; height: 100%; position: relative;}
+section .sc1>.pi ul{width: 250px; height: 300px; font-size: 15pt; position: absolute; border: 2px solid #a2c012; background-color: #fff; border-radius: 10px; text-align: center; display: none; flex-direction: column; justify-content: space-around;}
+section .sc1>.pi ul::before{border-color: #a2c012 transparent; border-style: solid; border-width: 24px 18px 0 19.5px; content: ""; position: absolute; z-index: 0; top: 298px; left: 150px;}
+section .sc1>.pi ul::after{border-color: #fff transparent; border-style: solid; border-width: 24px 18px 0 19.5px; content: ""; position: absolute; z-index: 1; top: 296px; left: 150px;}
+
+section .sc1>.pi ul li{height: 20px; width: 100%;}
+
+
+section .sc2{width: 1200px; height: 250px; margin: 50px auto 0; display: flex; justify-content: space-between;}
+section .sc2>.bt3{width: 50px; height: 50px; border-radius: 100%; align-self: center;}
+section .sc2>.pl{width: 1000px; display: flex; justify-content: space-between;}
+section .sc2>.pl div{width: 180px; height: 100%;}
+section .sc2>.pl div a{width: 100%; height: 100%; display: inline-block;}
+section .sc2>.pl div a img{width: 100%;}
+section .sc2>.pl div a p{text-align: center; font-size: 15pt; margin: 10px 0 0 0;}
+
+
+section .sc3{width: 1200px; height: 3100px; margin: 100px auto 0 auto; padding: 50px 0 0 0; font-family: 'GyeonggiBatang';}
+
+section .sc3 table{width: 800px; height: 250px; font-size: 15pt; margin: 0 auto; border-collapse : collapse;}
+
+section .sc3 table caption{height: 30px; text-align: left; font-weight: bold; margin: 0 0 20px 0;}
+
+section .sc3 table>tbody td{ border : 1px solid #aaa; border-collapse : collapse; padding: 10px;}
+section .sc3>.sp{width: 1200px;height: 2650px; margin: 100px auto 0 auto; padding: 50px 0 0 0; background-image: url(../img/bg3.jpg); background-position: center; background-size: cover;  border: 1px solid #eee;}
+section .sc3>.sp>.logo3{width: 250px; height: 250px; margin: 0 auto 600px auto;}
+section .sc3>.sp>.logo3 img{width: 100%; height: 100%;}
+section .sc3>.sp h2{text-align: center; height: 50px;}
+section .sc3>.sp p{width: 1200px; text-align: center; font-size: 18.75pt; margin: 30px auto 0 auto; line-height: 26.25pt;}
+
+section .sc3>.sp>.ppi{width: 800px; height: 800px; margin: 50px auto 0 auto;}
+section .sc3>.sp>.ppi img{width: 100%; height: 100%;}
+
+section .sc3>.sp>.ex{width: 800px; height: 700px; margin: 50px auto 0 auto; }
+section .sc3>.sp>.ex>.e1{width: 100%; text-align: center; margin: 0 auto 25px auto;}
+
+section .sc3>.sp>.ex>.e2{width: 800px; display: flex; justify-content: space-around; margin: 0 0 25px 0;}
+section .sc3>.sp>.ex>.e2>.e21{width: 100px; height: 150px; display: flex; flex-direction: column; align-content: center; justify-content: space-around;}
+section .sc3>.sp>.ex>.e2>.e21 img{width: 100%;}
+section .sc3>.sp>.ex>.e2>.e21 span{width: 100%; text-align: center; font-size: 15pt;}
+
+section .sc3>.sp>.ex h3{margin: 0 0 25px 0;}
+section .sc3>.sp>.ex>.e3 tr:first-child{background-color: #aaa;border-right: 1px solid #aaa; border-top: none;}
+section .sc3>.sp>.ex>.e3 tr:nth-of-type(2){border-right: 1px solid #aaa;}
+section .sc3>.sp>.ex>.e3 tr>td:first-child{border-right: none; border-top: none;}
+section .sc3>.sp>.ex>.e3 tr>td:nth-of-type(2){border-left: none; border-right: 2px solid #aaa; border-top: none;}
+section .sc3>.sp>.ex>.e3 tr>td:nth-of-type(3){border-right: none;}
+section .sc3>.sp>.ex>.e3 tr>td:nth-of-type(4){border-left: none;}
+
+section .sc4{width: 1200px; height: 650px; margin: 100px auto 0 auto; font-size: 15pt;font-family: 'GyeonggiBatang';}
+
+section .sc4 nav{width: 120px; height: 35px; font-size: 18.75pt; position: relative;}
+
+section .sc4 nav>ul{display: flex; justify-content: space-between;}
+section .sc4 nav>ul li{cursor: pointer;}
+section .sc4 nav>ul li:first-child{font-weight: bold;}
+section .sc4 nav>ul li:hover{font-weight: bold;}
+
+
+section .sc4>.ct{width: 100%; height: 600px; margin: 15px 0 0 0;}
+
+section .sc4>.ct>.rv{height: 600px; position: absolute;}
+section .sc4>.ct>.rv>.ri{height: 550px; width: 1200px;}
+section .sc4>.ct>.rv>.ri iframe{height: 550px; width: 1200px;}
+section .sc4>.ct>.rv>.d{height: 40px; text-align: center; margin: 10px 0 0 0; display: flex; align-items: center; justify-content: center;}
+section .sc4>.ct>.rv>.d:hover{font-weight: bold;}
+
+section .sc4>.ct>.iq{height: 600px;position: absolute; display: none;}
+section .sc4>.ct>.iq>.ii{height: 550px; width: 1200px;}
+section .sc4>.ct>.iq>.ii iframe{height: 550px; width: 1200px;}
+section .sc4>.ct>.iq>.d{height: 40px; text-align: center; margin: 10px 0 0 0; display: flex; align-items: center; justify-content: center;}
+section .sc4>.ct>.iq>.d:hover{font-weight: bold;}

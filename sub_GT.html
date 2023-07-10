@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>GT_sub</title>
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sub_GT_style.css">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.0.min.js"></script>
+    <script>
+        $(function(){
+            $('.sc4 li:nth-of-type(1)').click(function(){
+                $('.rv').fadeIn();
+                $('.iq').hide();
+                $('.sc4 li:nth-of-type(1)').css('font-weight','bold');
+                $('.sc4 li:nth-of-type(2)').css('font-weight','normal');
+
+            });
+
+            $('.sc4 li:nth-of-type(2)').click(function(){
+                $('.rv').hide();
+                $('.iq').fadeIn();
+                $('.sc4 li:nth-of-type(1)').css('font-weight','normal');
+                $('.sc4 li:nth-of-type(2)').css('font-weight','bold');
+            });
+        });
+
+        $(function(){
+            $('#menu').click(function(){
+                $('.menuli').toggle();
+            });
+
+        });
+
+        $(function(){
+            $('.pi').hover(function(){
+                $('.pi ul').show().css('display','flex');
+            }, function(){
+                $('.pi ul').hide();
+            });
+        })
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo1"><img src="img/logo.jpg" alt=""></div>
+
+        <nav>
+            <div id="menu">
+                <img src="img/menu.jpg" alt="">
+            </div>
+            <ul class="menuli">
+                <li class="mt">브랜드소개</li>
+                <li>스토리</li>
+                <li>목표</li>
+                <li>소식</li>
+
+                <li class="mt">도시락</li>
+                <li>샐러드</li>
+                <li>밥</li>
+                <li>샌드위치</li>
+                <li>면</li>
+                <li>디저트/음료</li>
+
+                <li class="mt">이벤트</li>
+                <li>진행중이벤트</li>
+                <li>지난이벤트</li>
+
+                <li class="mt">마이메뉴</li>
+                <li>회원정보</li>
+                <li>주문/배송</li>
+                <li>문의내역</li>
+
+                <li class="mt">고객서비스</li>
+                <li>FAQ</li>
+                <li>QnA</li>
+                <li>고객센터</li>
+                <li>문의사항</li>
+                <li>APP</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section> <!-- mt100,h4950 -->
+
+        <div class="sc1">
+            <!-- w1200,h700 -->
+            <div class="texbox">
+                <!-- 여기에 상품이름, 칼로리, 그람수, 가격, 구매정보 -->
+                <h2>맥시칸치킨샐러드</h2>
+                <h3>담백한 치킨과 신선한 야채</h3>
+
+                <table>
+                    <tr>
+                        <th>Kcal</th>
+                        <th>g</th>
+                    </tr>
+                    <tr>
+                        <td>000</td>
+                        <td>000</td>
+                    </tr>
+                </table>
+
+                 <p>3000&#65510;</p>
+
+                <form action="">
+                    <button type="button" class="bt1">+</button>
+                    <input type="textbox" value="1">
+                    <button type="button" class="bt1">-</button>
+
+                   <div>
+                    <button type="submit" class="bt2">장바구니</button>
+                    <button type="submit" class="bt2">바로구매</button>
+                   </div>
+                </form>
+
+            </div>
+
+            <div class="pi">
+                <img src="img/product5.jpg" alt="">
+                <ul>
+                    <li>훈제치킨</li>
+                    <li>적근대</li>
+                    <li>라다치오</li>
+                    <li>케일</li>
+                    <li>치커리</li>
+                    <li>강낭콩</li>
+                    <li>옥수수</li>
+                    <li>사워피칸테 소스</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sc2"><!-- w1200,h250 -->
+            <button type="button" class="bt3">&lt</button>
+            <div class="pl">
+
+                <div>
+                    <a href="">
+                        <img src="img/test.jpg" alt="">
+                        <p>test</p>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="">
+                        <img src="img/test.jpg" alt="">
+                        <p>test</p>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="">
+                        <img src="img/test.jpg" alt="">
+                        <p>test</p>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="">
+                        <img src="img/test.jpg" alt="">
+                        <p>test</p>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="">
+                        <img src="img/test.jpg" alt="">
+                        <p>test</p>
+                    </a>
+                </div>
+
+
+            </div>
+            <button type="button" class="bt3">&gt</button>
+        </div>
+
+        <div class="sc3"><!-- w1200 h3100 -->
+            <table>
+               <thead>
+                    <caption>필수 표기정보</caption>
+               </thead>
+                
+               <tbody>
+                    <tr>
+                        <td>제품명</td>
+                        <td>멕시칸치킨샐러드</td>
+                    </tr>
+
+                    <tr>
+                        <td>식품유형</td>
+                        <td>즉석섭취식품</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>제조연월일, 소비기한 또는 품질유지기한</td>
+                        <td>
+                            소비기한(또는 유통기한) : 제조일로부터 3일
+                            <br>
+                            제조년월일: 주문일로 부터 하루 이내
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>포장단위별 내용물의 용량(중량), 수량</td>
+                        <td>210g, 1개</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+            <div class="sp">
+                <div class="logo3">
+                    <img src="img/logo2.png" alt="">
+                </div>
+                <h2>멕시칸치킨샐러드</h2>
+
+                <p>
+                    담백한 치킨과 멕시칸풍 사워피칸테소스가 특징인 샐러드
+                    <br>
+                    훈제치킨, 샐러드야채, 옥수수 강낭콩이 들어있습니다
+                </p>
+
+                <div class="ppi">
+                    <img src="img/ppi.jpg" alt="">
+                </div>
+                
+                <div class="ex">
+                    <h3>구성정보</h3>
+
+                    <p class="e1">&#9312;훈제 닭고기 &#9313;샐러드야채 &#9314;강낭콩 &#9315;옥수수 &#9316;사워피칸테소스</p>
+
+                    <h3>샐러드아채</h3>
+
+                    <div class="e2">
+                        <div class="e21">
+                            <img src="img/e211.jpg" alt="">
+                            <span>적근대</span>
+                        </div>
+
+                        <div class="e21">
+                            <img src="img/e212.jpg" alt="">
+                            <span>라다치오</span>
+                        </div>
+                        
+                        <div class="e21">
+                            <img src="img/e213.jpg" alt="">
+                            <span>케일</span>
+                        </div>
+
+                        <div class="e21">
+                            <img src="img/e214.jpg" alt="">
+                            <span>치커리</span>
+                        </div>
+                    </div>
+
+                    <h3>영양성분</h3>
+
+                    <table class="e3">
+                        <tr>
+                            <td colspan="2">총 내용량 210g</td>
+                            <td colspan="2">225kcal</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="4">210g 당 1일 영양 가준치에 대한 비율</td>
+                        </tr>
+
+                        <tr>
+                            <td>나트륨 610mg </td>
+                            <td>30%</td>
+                            <td>지방 10g</td>
+                            <td>19%</td>
+                        </tr>
+
+                        <tr>
+                            <td>탄수화물 20g </td>
+                            <td>6%</td>
+                            <td>트렌스지방 0</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <td>당류 8g </td>
+                            <td>8%</td>
+                            <td>포화지방 4.2g</td>
+                            <td>28%</td>
+                        </tr>
+
+                        <tr>
+                            <td>콜레스테롤 35mg </td>
+                            <td>12%</td>
+                            <td>단백질 14g</td>
+                            <td>26%</td>
+                        </tr>
+
+                    </table>
+
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="sc4"><!-- m 100 w1200,h650 -->
+            
+            <nav> 
+                <ul>
+                    <li>리뷰</li>
+                    <li>문의</li>
+                </ul>
+            </nav>
+
+            <div class="ct"> 
+                <div class="rv">
+                    <div class="ri">
+                        <iframe src="review_p1.html" frameborder="0" scrolling="no"></iframe>
+                    </div>
+                    
+                    <div class="d">
+                        <a href="review_p1.html">더보기</a>
+                    </div>
+                </div>
+
+                <div class="iq">
+                    <div class="ii">
+                        <iframe src="inquiry_p1.html" frameborder="0" scrolling="no"></iframe>
+                    </div>
+                    <div class="d">
+                        <a href="inquiry_p1.html">더보기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <footer>
+        <div class="sm">
+            <div class="logo2">
+                <img src="img/logo.jpg" alt="">
+            </div>
+
+            <nav>
+                <table>
+                    <tr>
+                        <th>브랜드소개</th>
+                        <th>도시락</th>
+                        <th>이벤트</th>
+                        <th>마이메뉴</th>
+                        <th>고객서비스</th>
+                    </tr>
+
+                    <tr>
+                        <td><a href="#">스토리</a></td>
+                        <td><a href="#">샐러드</a></td>
+                        <td><a href="#">진행중이벤트</a></td>
+                        <td><a href="#">회원정보</a></td>
+                        <td><a href="#">FAQ</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="#">목표</a></td>
+                        <td><a href="#">밥</a></td>
+                        <td><a href="#">지난이벤트</a></td>
+                        <td><a href="#">주문/배송</a></td>
+                        <td><a href="#">QnA</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="#">소식</a></td>
+                        <td><a href="#">샌드위치</a></td>
+                        <td></td>
+                        <td><a href="#">문의내역</a></td>
+                        <td><a href="#">고객센터</a></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td><a href="#">면</a></td>
+                        <td></td>
+                        <td><a href="#"></a></td>
+                        <td><a href="#">공지사항</a></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td><a href="#">디저트/음료</a></td>
+                        <td></td>
+                        <td></td>
+                        <td><a href="#">APP</a></td>
+                    </tr>
+                </table>
+
+            </nav>
+        </div>
+
+        <div class="cr">
+            <p>&#9400; 2023 YJ all right reserved</p>
+            <p>19 gangnam soul korea</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

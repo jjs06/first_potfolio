@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/common.css">
+
+    <style>
+
+        #center{width: 1200px; margin: 0 auto; font-family: 'GyeonggiBatang';}
+
+        table{width: 600px; height: 60px; vertical-align: middle; margin: 0 0 60px 0; font-size: 22.5pt; position: relative;}
+
+        .t {
+            height: 100px;
+            width: 1100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 30px 0 0 0;
+            border: 1px solid #aaa;
+            border-radius: 20px;
+            padding: 10px 0 0 30px;
+        }
+
+        .t p {
+            height: 50px;
+        }
+
+        .rv {
+            width: 160px;
+            display: flex;
+            justify-content: space-between;
+            color: #aaa;
+        }
+
+        .rv>.n {
+            width: 50px;
+            position: relative;
+        }
+
+        .rv>.n::after {
+            content: "";
+            position: absolute;
+            width: 1px;
+            height: 25px;
+            left: 50px;
+            background-color: #eee;
+        }
+
+        .star-rating {
+            width: 100px;
+        }
+
+        .star-rating2{width: 300px;}
+
+        .star-rating,
+        .star-rating span {
+            display: inline-block;
+            height: 18px;
+            overflow: hidden;
+            background: url(img/star.png)no-repeat;
+        }
+
+        .star-rating2,
+        .star-rating2 span {
+            display: inline-block;
+            height: 54px;
+            overflow: hidden;
+            background: url(img/star2.png)no-repeat;
+        }
+
+        .star-rating span,
+        .star-rating2 span {
+            background-position: left bottom;
+            line-height: 0;
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="center">
+    <table>
+        <tr>
+            <th>4.7</th>
+            <td>
+                <div class='star-rating2'>
+                    <span style="width:92%"></span>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <div class="t">
+        <div class="rv">
+            <div class="n">
+                <span>***re1</span>
+            </div>
+            <div class='star-rating'>
+                <span style="width:100%"></span>
+            </div>
+        </div>
+        <p> 좋아요~!</p>
+    </div>
+
+    <div class="t">
+        <div class="rv">
+            <div class="n">
+                <span>***re2</span>
+            </div>
+            <div class='star-rating'>
+                <span style="width:100%"></span>
+            </div>
+        </div>
+        <p>맛있어요. 항상 시켜먹습니다.</p>
+    </div>
+
+    <div class="t">
+        <div class="rv">
+            <div class="n">
+                <span>***re3</span>
+            </div>
+            <div class='star-rating'>
+                <span style="width:90%"></span>
+            </div>
+        </div>
+        <p>맛있어요. 가격 조금만 더 저렴했으면 좋겠어요.</p>
+    </div>
+
+    <div class="t">
+        <div class="rv">
+            <div class="n">
+                <span>***re4</span>
+            </div>
+            <div class='star-rating'>
+                <span style="width:90%"></span>
+            </div>
+        </div>
+        <p>살짝 아쉽...</p>
+    </div>
+
+    <div class="t">
+        <div class="rv">
+            <div class="n">
+                <span>***re5</span>
+            </div>
+            <div class='star-rating'>
+                <span style="width:80%"></span>
+            </div>
+        </div>
+        <p>배송 빨라요.</p>
+    </div>
+</div>
+
+</body>
+
+</html>
